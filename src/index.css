@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", system-ui, sans-serif;
+  }
+}
+
+.nav-gradient {
+  background: linear-gradient(
+    180deg,
+    #04304b -73.24%,
+    rgba(4, 48, 75, 0.16) 57.33%,
+    rgba(4, 48, 75, 0) 100%
+  );
+}
+
+.search-bg-gradient {
+  background: linear-gradient(112deg, #0f2536 5.33%, #1b1b1b 74.61%, #313131 99%);
+}
+
+.ticket-button-gradient {
+  background: linear-gradient(90deg, #57ffae 0%, #38d8fb 98.63%), #04304b;
+}
+
+.explore-gradient {
+  background: linear-gradient(275deg, rgba(41, 43, 45, 0.9) 26.12%, #0f2332 100%),
+    linear-gradient(180deg, #eeffd1 0%, #9effa9 52.04%, #57ffae 100%);
+}
+
+.footer-gradient {
+  background: linear-gradient(180deg, #102638 0%, #06111a 100%), #04304b;
+}
